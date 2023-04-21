@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
                     //update
                     int idUpd = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());                   
                     data.UpdatePersonas(idUpd, tbNombre.Text, int.Parse(tbEdad.Text), tbEmail.Text);
-                    MessageBox.Show("succesfully updated");
+                    MessageBox.Show("Actualizado exitosamente");
                     SelectAll();
                     Limpiar();
                     tbNombre.Focus();
@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
                     return;
                 }
                 data.CreatePersona(tbNombre.Text, int.Parse(tbEdad.Text), tbEmail.Text);
-                MessageBox.Show("succesfully saved");
+                MessageBox.Show("Guardado exitosamente");
                 SelectAll();
                 Limpiar();
                 tbNombre.Focus();
@@ -76,7 +76,7 @@ namespace WindowsFormsApp1
         {
             if (string.IsNullOrEmpty(tbEmail.Text))
             {
-                erpError.SetError(tbEmail, "Debe ingresar un correo");
+                erpError.SetError(tbEmail, "Debe ingresar un email para avanzar");
                 return false;
             }
             else
