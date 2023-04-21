@@ -1,3 +1,3 @@
 # Practice.WindowsFromsApp
 Windows Forms app + stored procedures with SQL server.
-![WF](https://user-images.githubusercontent.com/66450273/233734789-5ee0a448-fc95-4718-8f09-7b4c092ffa2c.PNG)
+![WF](https://user-images.githubusercontent.com/66450273/233735002-baa252b1-8864-4845-8381-adeb2d36f983.PNG)
