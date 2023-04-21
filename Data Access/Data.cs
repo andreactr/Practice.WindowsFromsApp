@@ -13,7 +13,6 @@ namespace WindowsFormsApp1.Data_Access
 {
     public class Data
     {
-        //string connST = "Data Source=Localhost;Initial Catalog=Person;Integrated Security=True";
         string connST2 = ConfigurationManager.AppSettings["defaultConnection"].ToString();
 
 
